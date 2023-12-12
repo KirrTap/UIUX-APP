@@ -1,0 +1,49 @@
+.lod-nadpis{
+    margin-left: 30px ;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Inter-Bold", Helvetica;
+}
+.lod-dropdown{
+    width: 278px;
+    margin-left: 30px ;
+    position: relative;
+}
+
+.lod-dropdown .lod-dropdown-btn{
+    padding:14px 20px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: var(--spacing-xsmall, 8px);
+    cursor: pointer;
+}
+
+.lod-dropdown .lod-dropdown-content{
+    position: absolute;
+    background: #fff;
+    top: 110%;
+    padding: 15px;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-family: "Inter-Bold", Helvetica;
+    color: #333;
+    border-radius: var(--spacing-xsmall, 8px);
+    width: 89%;
+    z-index: 100;
+}
+
+.lod-dropdown .lod-dropdown-content .lod-dropdown-item{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.lod-dropdown .lod-dropdown-content .lod-dropdown-item:hover{
+    background: #a19c9c;
+}
