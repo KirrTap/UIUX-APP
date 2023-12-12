@@ -1,8 +1,8 @@
 // DropDown.js
 import React, { useState } from 'react';
-import DestinaciaDropDown from './DestinaciaDropDown';
-import LodDropDown from './LodDropDown';
-import OsobyDropDown from './OsobyDropDown';
+import DestinaciaDropDown from './DropDownFile/DestinaciaDropDown';
+import LodDropDown from './DropDownFile/LodDropDown';
+import OsobyDropDown from './DropDownFile/OsobyDropDown';
 import "./DropDown.css";
 
 
@@ -21,6 +21,8 @@ const DropDown = () => {
                     <OsobyDropDown selected={selected_osoby} setSelected={setSelected_osoby} />
                 </div>
                 <div className="dropdown-row">
+                    <LodDropDown selected={selected_lode} setSelected={setSelected_lode} />
+                    <DestinaciaDropDown selected={selected_destinacia} setSelected={setSelected_destinacia} />
 
                 </div>
             </div>
