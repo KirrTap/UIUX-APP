@@ -1,0 +1,25 @@
+.search-nadpis{
+    margin-top: 96px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 35px;
+    margin-left: 415px ;
+}
+
+.search-rectangle {
+    position: relative;
+    width: 980px;
+    margin-left: 415px ;
+    border-radius: var(--spacing-xsmall, 8px);
+    background-color: #0093ff66;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 308px;
+}
+
+.dropdown-row {
+    display: flex;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}

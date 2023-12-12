@@ -1,0 +1,92 @@
+.containerImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+  }
+  
+  .hlavnyObrazok {
+    width: 1020px;
+    height: 572px;
+    border-radius: var(--spacing-xsmall, 15px);
+  }
+  
+  .rightArrow,
+  .leftArrow {
+    max-width: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-style: normal;
+    cursor: pointer;
+    background-color: rgb(255, 249, 249);
+    transition: filter 0.3s ease, background-color 0.3s ease; 
+    border-radius: 10px;
+  }
+
+  .rightArrow {
+    margin-left: 30px;
+  }
+  
+  .leftArrow {
+    margin-right: 30px;
+  }
+  
+  .rightArrow:hover,
+  .leftArrow:hover {
+    filter: grayscale(100%);
+    background-color: #a19c9c;
+    color: rgb(0, 0, 0);
+  }
+
+  @media screen and (max-width: 1150px){
+    .hlavnyObrazok{
+      width: 80%;
+      height: 80%;
+    }
+
+    .rightArrow,
+    .leftArrow {
+      width: 25px;
+      height: 25px;
+      font-size: 12.5px;
+    }
+
+    .rightArrow {
+      margin-left: 10px;
+    }
+
+    .leftArrow {
+      margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+  .hlavnyObrazok{
+    width: 80%;
+    height: 80%;
+    
+  }
+
+  .containerImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .rightArrow,
+  .leftArrow {
+    width: 25px;
+    height: 25px;
+    font-size: 12.5px;
+  }
+
+  .rightArrow {
+    margin-left: 10px;
+  }
+
+  .leftArrow {
+    margin-right: 10px;
+  }
+}

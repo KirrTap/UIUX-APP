@@ -1,0 +1,154 @@
+.topbar{
+    width: 100%;
+    height: 90px;
+    background: #0094FF;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);  
+    justify-content: center ;
+}   
+
+
+.logo{
+    margin-top: 10px;
+    width: 77.143px;    
+    height: 70px;
+}
+.dream-cruise {
+    margin-left: 13px;
+    margin-top: 16px;
+    width: 100px;
+    height: 59px;
+    color: #FDFDFD;
+    font-family:"Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+
+.destinacia{
+    margin-left: 46px;
+    margin-top: 28px;
+    width: 128px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-o-loadiach{
+    margin-left: 46px;
+    margin-top: 28px;
+    width: 235px;
+    height: 30px;
+    flex-shrink: 0; 
+    color: #FFF;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+@media screen and (max-width: 1150px){
+    .topbar{
+        width: 100%;
+        height: 90px;
+    }   
+
+    .logo{
+        margin-top: 20px;
+        width: 55px;
+        height: 49px;
+    }
+
+    .dream-cruise{
+        margin-top: 24.5px;
+        width: 70px;
+        height: 41px;
+        font-size: 18px;
+    }
+
+    .destinacia{
+        margin-left: 32px;
+        margin-top: 34.5px;
+        width: 90px;
+        height: 21px;
+        font-size: 15.5px;
+    }
+
+    .info-o-loadiach{
+        margin-left: 32px;
+        margin-top: 34.5px;
+        width: 165px;
+        height: 21px;
+        font-size: 15.5px;
+ 
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .topbar{
+        width: 100%;
+        height: 90px;
+    }   
+
+    .logo{
+        margin-top: 28px;
+        width: 39px;
+        height: 34.3px;
+    }
+
+    .dream-cruise{
+        margin-top: 30.5px;
+        width: 49px;
+        height: 28.7px;
+        font-size: 13px;
+    }
+
+    .destinacia{
+        margin-left: 22.5px;
+        margin-top: 37.5px;
+        width: 63px;
+        height: 15px;
+        font-size: 10.8px;
+    }
+
+    .info-o-loadiach{
+        margin-left: 22.5px;
+        margin-top: 37.5px;
+        width: 115.5px;
+        height: 15px;
+        font-size: 10.8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .topbar {
+        flex-direction: column;
+        height: 250px;
+        position: relative;
+        
+    }
+    .logo{
+        align-self: center;
+    }
+    
+    .dream-cruise,
+    .destinacia,
+    .info-o-loadiach {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
