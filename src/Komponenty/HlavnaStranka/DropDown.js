@@ -3,6 +3,7 @@ import DestinaciaDropDown from './DropDownFile/DestinaciaDropDown';
 import LodDropDown from './DropDownFile/LodDropDown';
 import OsobyDropDown from './DropDownFile/OsobyDropDown';
 import DlzkaPlavbyDropDown from './DropDownFile/DlzkaPlavbyDropDown';
+import Termin from './DropDownFile/Termin';
 
 import "./DropDown.css";
 
@@ -11,6 +12,7 @@ const DropDown = () => {
     const [selected_lode, setSelected_lode] = useState("VYBRAŤ LOD");
     const [selected_osoby, setSelected_osoby] = useState("VYBRAŤ");
     const [selected_dlzka, setSelected_dlzka] = useState("VYBRAŤ");
+    const [selected_termin, setSelected_termin] = useState("VYBRAŤ TERMÍN");
 
     return (
         <div>
@@ -23,8 +25,13 @@ const DropDown = () => {
                 </div>
                 <div className="dropdown-row">
                     <DlzkaPlavbyDropDown selected={selected_dlzka} setSelected={setSelected_dlzka} />
+                    <Termin selected={selected_termin} setSelected={setSelected_termin} />
 
-                </div>
+                </div >
+                <div className="dropdown-row">
+                    <button className="green-button">VYHĽADAŤ</button>
+                </div >
+                    
             </div>
         </div>
     );

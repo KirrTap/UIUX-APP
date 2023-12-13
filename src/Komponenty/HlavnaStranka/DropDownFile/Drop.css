@@ -47,3 +47,25 @@
 .drop-dropdown .drop-dropdown-content .drop-dropdown-item:hover{
     background: #a19c9c;
 }
+
+.green-button {
+    background-color: #4caf50;
+    font-family: "Inter-Bold", Helvetica;
+    color: #ffffff; 
+    font-size: 16px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: var(--spacing-xsmall, 8px);
+    cursor: pointer; 
+    font-size: 16px; 
+    width: 180.96px;
+    height: 39.773px;
+    margin-left: 30px ;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+
+  .green-button:hover {
+    background-color: #357738; 
+  }

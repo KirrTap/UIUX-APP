@@ -29,11 +29,11 @@ const MainImg = () => {
 
   return (
     <div className="containerImg">
-      <button className="leftArrow" onClick={changeImageLeft}> &lt; {} </button>
+      {/* <button className="leftArrow" onClick={changeImageLeft}> &lt; {} </button> */}
 
       <img className="hlavnyObrazok" src={Image} alt="Logo" />
 
-      <button className="rightArrow" onClick={changeImageRight}> &gt; {} </button>
+      {/* <button className="rightArrow" onClick={changeImageRight}> &gt; {} </button> */}
     
     </div>
   );
