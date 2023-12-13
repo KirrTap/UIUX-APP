@@ -1,18 +1,20 @@
-.osoby-nadpis{
+.drop-nadpis{
     margin-left: 30px ;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: "Inter-Bold", Helvetica;
 }
-.osoby-dropdown{
+.drop-dropdown{
     width: 278px;
     margin-left: 30px ;
     position: relative;
 }
 
-.osoby-dropdown .osoby-dropdown-btn{
+.drop-dropdown .drop-dropdown-btn{
     padding:14px 20px;
     background: #fff;
     box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-family: "Inter-Bold", Helvetica;
     font-size: 16px;
     color: #333;
     font-weight: bold;
@@ -24,23 +26,24 @@
     cursor: pointer;
 }
 
-.osoby-dropdown .osoby-dropdown-content{
+.drop-dropdown .drop-dropdown-content{
     position: absolute;
     background: #fff;
     top: 110%;
     padding: 15px;
     box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-family: "Inter-Bold", Helvetica;
     color: #333;
     border-radius: var(--spacing-xsmall, 8px);
     width: 89%;
     z-index: 100;
 }
 
-.osoby-dropdown .osoby-dropdown-content .osoby-dropdown-item{
+.drop-dropdown .drop-dropdown-content .drop-dropdown-item{
     padding: 10px;
     cursor: pointer;
 }
 
-.osoby-dropdown .osoby-dropdown-content .osoby-dropdown-item:hover{
+.drop-dropdown .drop-dropdown-content .drop-dropdown-item:hover{
     background: #a19c9c;
 }

@@ -1,15 +1,16 @@
-// DropDown.js
 import React, { useState } from 'react';
 import DestinaciaDropDown from './DropDownFile/DestinaciaDropDown';
 import LodDropDown from './DropDownFile/LodDropDown';
 import OsobyDropDown from './DropDownFile/OsobyDropDown';
-import "./DropDown.css";
+import DlzkaPlavbyDropDown from './DropDownFile/DlzkaPlavbyDropDown';
 
+import "./DropDown.css";
 
 const DropDown = () => {
     const [selected_destinacia, setSelected_destinacia] = useState("VYBRAŤ DESTINÁCIU");
     const [selected_lode, setSelected_lode] = useState("VYBRAŤ LOD");
     const [selected_osoby, setSelected_osoby] = useState("VYBRAŤ");
+    const [selected_dlzka, setSelected_dlzka] = useState("VYBRAŤ");
 
     return (
         <div>
@@ -21,8 +22,7 @@ const DropDown = () => {
                     <OsobyDropDown selected={selected_osoby} setSelected={setSelected_osoby} />
                 </div>
                 <div className="dropdown-row">
-                    <LodDropDown selected={selected_lode} setSelected={setSelected_lode} />
-                    <DestinaciaDropDown selected={selected_destinacia} setSelected={setSelected_destinacia} />
+                    <DlzkaPlavbyDropDown selected={selected_dlzka} setSelected={setSelected_dlzka} />
 
                 </div>
             </div>

@@ -39,7 +39,7 @@
     color: rgb(0, 0, 0);
   }
 
-  @media screen and (max-width: 1150px){
+  /* @media screen and (max-width: 1150px){
     .hlavnyObrazok{
       width: 80%;
       height: 80%;
@@ -89,4 +89,4 @@
   .leftArrow {
     margin-right: 10px;
   }
-}
+} */

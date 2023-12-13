@@ -1,4 +1,4 @@
-import "./OsobyDropDown.css";
+import "./Drop.css";
 import { useState } from "react";
 
 const DestinaciaDropDown = ({selected, setSelected}) => {
@@ -7,16 +7,16 @@ const DestinaciaDropDown = ({selected, setSelected}) => {
   const option = ["1 OSOBA ", "2 OSOBY", "3 OSOBY", "4 A VIAC OSÔB"]
   return(
     <div>
-      <p className="osoby-nadpis">POČET OSÔB</p>
-      <div className="osoby-dropdown">
-          <div className="osoby-dropdown-btn" onClick={(e) =>setIsActive(!isActive)}>{selected}
+      <p className="drop-nadpis">POČET OSÔB</p>
+      <div className="drop-dropdown">
+          <div className="drop-dropdown-btn" onClick={(e) =>setIsActive(!isActive)}>{selected}
           </div>
           {isActive && (
-            <div className="osoby-dropdown-content">
+            <div className="drop-dropdown-content">
               {option.map((option) => (
                 <div onClick={(e) => {setSelected(option) 
                                     setIsActive(false)}
-                } className="osoby-dropdown-item">
+                } className="drop-dropdown-item">
                   {option}
                 </div>
               ))}

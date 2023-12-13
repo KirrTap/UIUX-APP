@@ -1,4 +1,4 @@
-import "./DestinaciaDropDown.css";
+import "./Drop.css";
 import { useState } from "react";
 
 const DestinaciaDropDown = ({selected, setSelected}) => {
@@ -7,17 +7,17 @@ const DestinaciaDropDown = ({selected, setSelected}) => {
   const option = ["VŠETKY DESTINÁCIE", "AUSTRÁLIA", "BAHAMY", "ČÍNA", "GRÉCKO", "KARIBIK", "TALIANKO"]
   return(
     <div>
-      <p className="destinacia-nadpis">DESTINÁCIA</p>
-      <div className="destinacia-dropdown">
-          <div className="destinacia-dropdown-btn" onClick={(e) =>setIsActive(!isActive)}>{selected}
+      <p className="drop-nadpis">DESTINÁCIA</p>
+      <div className="drop-dropdown">
+          <div className="drop-dropdown-btn" onClick={(e) =>setIsActive(!isActive)}>{selected}
             <span className="fas fa-caret=down"></span>
           </div>
           {isActive && (
-            <div className="destinacia-dropdown-content">
+            <div className="drop-dropdown-content">
               {option.map((option) => (
                 <div onClick={(e) => {setSelected(option) 
                                     setIsActive(false)}
-                } className="destinacia-dropdown-item">
+                } className="drop-dropdown-item">
                   {option}
                 </div>
               ))}

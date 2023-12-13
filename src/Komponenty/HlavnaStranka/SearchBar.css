@@ -23,7 +23,7 @@
     line-height: 35px; 
   }
 
- @media screen and (max-width: 1150px){
+ /* @media screen and (max-width: 1150px){
   .searchbar {
     align-items: center;
     margin-left: 19px;
@@ -90,4 +90,4 @@
           line-height: 17.5px;
           font-size: 8.75px;
       }
-  }
+  } */
