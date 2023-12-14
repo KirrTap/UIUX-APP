@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import DestinaciaDropDown from './DropDownFile/DestinaciaDropDown';
 import LodDropDown from './DropDownFile/LodDropDown';
 import OsobyDropDown from './DropDownFile/OsobyDropDown';
@@ -29,8 +30,10 @@ const DropDown = () => {
 
                 </div >
                 <div className="dropdown-row">
-                    <button className="green-button">VYHĽADAŤ</button>
-                </div >
+                    <Link to="/vyhladavanie">
+                        <button className="green-button">VYHĽADAŤ</button>
+                    </Link>
+                </div>
                     
             </div>
         </div>
