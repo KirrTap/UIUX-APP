@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import DestinaciaDropDown from './DropDownFile/DestinaciaDropDown';
 import LodDropDown from './DropDownFile/LodDropDown';
 import OsobyDropDown from './DropDownFile/OsobyDropDown';
@@ -14,6 +14,13 @@ const DropDown = () => {
     const [selected_osoby, setSelected_osoby] = useState("VYBRAŤ");
     const [selected_dlzka, setSelected_dlzka] = useState("VYBRAŤ");
     const [selected_termin, setSelected_termin] = useState("VYBRAŤ TERMÍN");
+
+
+    const navigate = useNavigate();
+
+    const handleSearchClick = () => {
+      navigate('/vyhladavanie');
+    };
 
     return (
         <div>
@@ -31,7 +38,7 @@ const DropDown = () => {
                 </div >
                 <div className="dropdown-row">
                     <Link to="/vyhladavanie">
-                        <button className="green-button">VYHĽADAŤ</button>
+                        <button className="green-button" onClick={handleSearchClick}>VYHĽADAŤ</button>
                     </Link>
                 </div>
                     
