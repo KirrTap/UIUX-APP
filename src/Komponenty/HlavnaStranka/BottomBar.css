@@ -1,0 +1,35 @@
+.bottomBar {
+    position: relative;
+    width: 980px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: var(--spacing-xsmall, 8px);
+    background: #0094FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    height: 35px;
+    font-family:"Inter-Bold", Helvetica;
+    justify-content: center;
+}
+
+.created-by{
+    margin-left: 46px;
+    width: 320px;
+    height: 28px;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;   
+}
+
+.datum2023{
+    width: 75px;
+    height: 28px;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;   
+}
