@@ -7,7 +7,7 @@ const DestinaciaDropDown = ({selected, setSelected}) => {
   const option = ["DECEMBER 2023 ", "JANUÁR 2024", "FEBRUÁR 2024", "MAREC 2024"]
   return(
     <div>
-      <p className="drop-nadpis">POČET OSÔB</p>
+      <p className="drop-nadpis">VYBRAŤ TERMÍN</p>
       <div className="drop-dropdown">
           <div className="drop-dropdown-btn" onClick={(e) =>setIsActive(!isActive)}>{selected}
           </div>

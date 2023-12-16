@@ -1,0 +1,96 @@
+
+.vyber-lode-rectangle-container {
+    margin-top: 30px;
+    position: relative;
+    width: 1020px;
+    height: 223px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .vyber-lode-obrazok {
+    width: 362px;
+    height: 223px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .vyber-lode-rectangle-content {
+    width: 1020px;
+    height: 223px;
+    background-color: #0093ff66;
+    border-radius: var(--spacing-xsmall, 8px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vyber-lode-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 420px;
+    height: 100%; 
+  }
+  
+  .vyber-lode-lod {
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px 10px;
+  }
+
+  .vyber-lode-destinacia {
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 10px;
+    color: #000000b2;
+  }
+
+  .vyber-lode-termin {
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 10px;
+    color: #000000b2;
+  }
+
+  .vyber-lode-cena{
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 10px;
+  }
+
+
+  .vyber-lode-button {
+    font-family: "Montserrat-Bold", Helvetica;
+    width: 185.49px;
+    height: 44px;
+    font-size: 35px;
+    font-weight: 400;
+    position: absolute;
+    right: 40px; 
+    bottom: 25px;
+    padding: 10px;
+    background: #0094FF;
+    border-radius: var(--spacing-xsmall, 8px);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .vyber-lode-button:hover {
+    background: #007acc;
+  }
+  
+  .vyber-lode-button img {
+    margin-right: 12px;
+  }

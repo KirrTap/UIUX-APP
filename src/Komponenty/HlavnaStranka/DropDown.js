@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import DestinaciaDropDown from './DropDownFile/DestinaciaDropDown';
 import LodDropDown from './DropDownFile/LodDropDown';
 import OsobyDropDown from './DropDownFile/OsobyDropDown';
@@ -8,6 +8,7 @@ import Termin from './DropDownFile/Termin';
 
 import "./DropDown.css";
 
+
 const DropDown = () => {
     const [selected_destinacia, setSelected_destinacia] = useState("VYBRAŤ DESTINÁCIU");
     const [selected_lode, setSelected_lode] = useState("VYBRAŤ LOD");
@@ -15,12 +16,18 @@ const DropDown = () => {
     const [selected_dlzka, setSelected_dlzka] = useState("VYBRAŤ");
     const [selected_termin, setSelected_termin] = useState("VYBRAŤ TERMÍN");
 
-
     const navigate = useNavigate();
 
     const handleSearchClick = () => {
-      navigate('/vyhladavanie');
-    };
+        const searchParams = new URLSearchParams();
+        searchParams.append("destinacia", selected_destinacia);
+        searchParams.append("lode", selected_lode);
+        searchParams.append("osoby", selected_osoby);
+        searchParams.append("dlzka", selected_dlzka);
+        searchParams.append("termin", selected_termin);
+        navigate(`/vyhladavanie?${searchParams.toString()}`);
+      };
+    
 
     return (
         <div>
@@ -36,10 +43,8 @@ const DropDown = () => {
                     <Termin selected={selected_termin} setSelected={setSelected_termin} />
 
                 </div >
-                <div className="dropdown-row">
-                    <Link to="/vyhladavanie">
-                        <button className="green-button" onClick={handleSearchClick}>VYHĽADAŤ</button>
-                    </Link>
+                <div className="dropdown-row">   
+                    <button className="green-button" onClick={handleSearchClick}>VYHĽADAŤ</button>  
                 </div>
                     
             </div>
