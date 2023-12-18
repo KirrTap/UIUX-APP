@@ -1,0 +1,50 @@
+.blue-rectangle {
+    width: 980px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: #0093ff66; 
+    border-radius: 8px; 
+    padding: 20px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.label-text {
+    font-size: 18px;
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.green-button {
+    background-color: #4caf50;
+    font-family: "Inter-Bold", Helvetica;
+    color: #ffffff; 
+    font-size: 16px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: var(--spacing-xsmall, 8px);
+    cursor: pointer; 
+    font-size: 16px; 
+    width: 180.96px;
+    height: 39.773px;
+    margin-left: 30px ;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+
+  .green-button:hover {
+    background-color: #357738; 
+    cursor: pointer;
+  }

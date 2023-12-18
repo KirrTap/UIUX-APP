@@ -3,6 +3,7 @@ import HlavnaStranka from './HlavnaStranka';
 import Vyhladavanie from './Vyhladavanie';
 import Detail from './Detail';
 import Platba from './Platba';
+import Dokoncenie from './Dokoncenie';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/vyhladavanie" element={<Vyhladavanie />} />
         <Route path="/detail" element={<Detail />} />
         <Route path="/platba" element={<Platba />} />
+        <Route path="/dokoncenie" element={<Dokoncenie />} />
       </Routes>
     </Router>
   );

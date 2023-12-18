@@ -1,0 +1,71 @@
+.platba-drop-dropdown{
+    width: 278px;
+    margin-left: 30px ;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.platba-drop-dropdown .platba-drop-dropdown-btn{
+    padding:14px 20px;
+    background: #0093ff66;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.6);
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: var(--spacing-xsmall, 8px);
+    cursor: pointer;
+    z-index: 100;
+    margin-bottom: 250px;
+}
+
+.platba-drop-dropdown .platba-drop-dropdown-content{
+    position: absolute;
+    background: #0093ff66;
+    top: 110%;
+    padding: 15px;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.6);
+    font-family: "Inter-Bold", Helvetica;
+    color: #000000;
+    border-radius: var(--spacing-xsmall, 8px);
+    width: 89%;
+    z-index: 100;
+    margin-bottom: 200px;
+}
+
+.platba-drop-dropdown .platba-drop-dropdown-content .platba-drop-dropdown-item{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.platba-drop-dropdown .platba-drop-dropdown-content .platba-drop-dropdown-item:hover{
+    background: #a19c9c;
+}
+
+.green-button {
+    background-color: #4caf50;
+    font-family: "Inter-Bold", Helvetica;
+    color: #ffffff; 
+    font-size: 16px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: var(--spacing-xsmall, 8px);
+    cursor: pointer; 
+    font-size: 16px; 
+    width: 180.96px;
+    height: 39.773px;
+    margin-left: 30px ;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+
+  .green-button:hover {
+    background-color: #357738; 
+    cursor: pointer;
+  }

@@ -26,3 +26,77 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.search-plavby1 {
+    margin-top: 30px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center; /* Zarovnanie na horizontálnu os */
+    align-items: center; /* Zarovnanie na vertikálnu os */
+    width: 100%;
+}
+
+.platba-green-button {
+    background-color: #4caf50;
+    font-family: "Inter-Bold", Helvetica;
+    color: #ffffff; 
+    font-size: 16px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: var(--spacing-xsmall, 8px);
+    cursor: pointer; 
+    font-size: 16px; 
+    width: 250px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .platba-green-button:hover {
+    background-color: #357738; 
+    cursor: pointer;
+  }
+
+  .empty-rectangle {
+    width: 762px;
+    height: 261px;
+    background-color: #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+  
+  .empty-rectangle p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .dokoncenie-zelena{
+    color: #4D8539;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .dokoncenie-modra{
+    color: #001eff;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-style: normal;
+    cursor: pointer;
+    line-height: normal;
+  }
