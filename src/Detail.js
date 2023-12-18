@@ -1,29 +1,20 @@
 import React from 'react';
-import { useLocation} from 'react-router-dom';
 import TopBar from './Komponenty/HlavnaStranka/TopBar';
 import BottomBar from './Komponenty/HlavnaStranka/BottomBar';
-
+import DropDown from './Komponenty/HlavnaStranka/DropDown';
+import Mapa from './Komponenty/DetailStranka/Mapa';
+import Info from './Komponenty/DetailStranka/InfoOPlavbe';
 
 const Detail = () => {
-    const location = useLocation();
-    const searchParams = new URLSearchParams(location.search);
-  
-    const destinacia = searchParams.get('destinacia');
-    const lode = searchParams.get('lod');
-    const osoby = searchParams.get('osoby');
-    const dlzka = searchParams.get('dlzka');
-    const termin = searchParams.get('termin');
-    const cena = searchParams.get('cena');
+
 
   return (
     <div>
         <TopBar></TopBar>
-        <p>{destinacia}</p>
-        <p>{lode}</p>
-        <p>{osoby}</p>
-        <p>{dlzka}</p>
-        <p>{termin}</p>
-        <p>{cena}€</p>
+        <DropDown></DropDown>
+        <Mapa></Mapa>
+        <p className="search-plavby">INFORMÁCIE O PLAVBE</p>
+        <Info></Info>
         <BottomBar></BottomBar>
     </div>
   );

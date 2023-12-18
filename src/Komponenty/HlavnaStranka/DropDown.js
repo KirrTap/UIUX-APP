@@ -31,7 +31,6 @@ const DropDown = () => {
 
     return (
         <div>
-            <p className="search-nadpis">VYHĽADAŤ PLAVBU</p>
             <div className="search-rectangle">
                 <div className="dropdown-row">
                     <DestinaciaDropDown selected={selected_destinacia} setSelected={setSelected_destinacia} />

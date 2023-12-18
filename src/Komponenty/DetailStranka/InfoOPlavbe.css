@@ -1,0 +1,73 @@
+.info-container {
+    display: flex;
+    width: 1020px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-rectangle {
+    background-color: #0093ff66;
+    border-radius: var(--spacing-xsmall, 8px);
+    width: 1020px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-text-container {
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+}
+
+.info-text-container1 {
+    font-family: "Inter-Bold", Helvetica;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.kajuta-button {
+    margin-top: 200px;
+}
+
+.kajuta-rectangle-button {
+    color: #ffffff;
+    background-color: #4caf50;
+    padding: 10px 20px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: var(--spacing-xsmall, 8px);
+    
+    font-size: 16px;
+}
+
+.kajuta-rectangle-button[disabled] {
+    background-color:#ccc;
+    cursor: pointer;
+    cursor: not-allowed;
+}
+
+.kajuta-rectangle-button:hover[disabled] {
+    background-color: #ccc;
+    cursor: pointer;
+    cursor: not-allowed;
+}
+
+.kajuta-rectangle-button:hover {
+    background-color:#357738; 
+    color: #ffffff;
+}
+
+.kajuta-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.kajuta-dropdown-btn {
+    margin-right: 20px;
+    cursor: pointer;
+}

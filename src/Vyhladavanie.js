@@ -11,6 +11,7 @@ const Vyhladavanie = () => {
     <div>
         <TopBar></TopBar>
         <DropDown></DropDown>
+          <p className="search-plavby">PLAVBY</p>
         <VyberLode></VyberLode>
         <VyberLode></VyberLode>
         <VyberLode></VyberLode>

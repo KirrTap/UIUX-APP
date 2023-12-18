@@ -1,21 +1,21 @@
-.drop-nadpis{
+.kajuta-drop-nadpis{
     margin-left: 30px ;
     font-size: 20px;
     font-weight: bold;
     font-family: "Inter-Bold", Helvetica;
 }
-.drop-dropdown{
-    width: 278px;
+.kajuta-drop-dropdown{
+    width: 330px;
     margin-left: 30px ;
     position: relative;
 }
 
-.drop-dropdown .drop-dropdown-btn{
+.kajuta-drop-dropdown .kajuta-drop-dropdown-btn{
     padding:14px 20px;
     background: #fff;
     box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
     font-family: "Inter-Bold", Helvetica;
-    font-size: 16px;
+    font-size: 19px;
     color: #333;
     font-weight: bold;
     display: flex;
@@ -26,47 +26,24 @@
     cursor: pointer;
 }
 
-.drop-dropdown .drop-dropdown-content{
+.kajuta-drop-dropdown .kajuta-drop-dropdown-content{
     position: absolute;
     background: #fff;
-    top: 110%;
     padding: 15px;
+    top: 110%;
     box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
     font-family: "Inter-Bold", Helvetica;
     color: #333;
     border-radius: var(--spacing-xsmall, 8px);
-    width: 89%;
+    width: 91%;
     z-index: 100;
 }
 
-.drop-dropdown .drop-dropdown-content .drop-dropdown-item{
+.kajuta-drop-dropdown .kajuta-drop-dropdown-content .kajuta-drop-dropdown-item{
     padding: 10px;
     cursor: pointer;
 }
 
-.drop-dropdown .drop-dropdown-content .drop-dropdown-item:hover{
+.kajuta-drop-dropdown .kajuta-drop-dropdown-content .kajuta-drop-dropdown-item:hover{
     background: #a19c9c;
 }
-
-.green-button {
-    background-color: #4caf50;
-    font-family: "Inter-Bold", Helvetica;
-    color: #ffffff; 
-    font-size: 16px;
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: var(--spacing-xsmall, 8px);
-    cursor: pointer; 
-    font-size: 16px; 
-    width: 180.96px;
-    height: 39.773px;
-    margin-left: 30px ;
-    margin-top: 15px;
-    position: relative;
-  }
-  
-
-  .green-button:hover {
-    background-color: #357738; 
-    cursor: pointer;
-  }

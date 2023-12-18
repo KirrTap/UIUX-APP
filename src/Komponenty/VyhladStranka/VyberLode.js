@@ -84,10 +84,10 @@ const VyberLode = () => {
         else if(destinacia === "BAHAMY"){
             return destinacia;
         }
-        else if(destinacia === "ČÍNA"){
+        else if(destinacia === "ISLAND"){
             return destinacia;
         }
-        else if(destinacia === "GRÉCKO"){
+        else if(destinacia === "INDONÉZIA"){
             return destinacia;
         }
         else if(destinacia === "KARIBIK"){
@@ -105,10 +105,10 @@ const VyberLode = () => {
                 return "BAHAMY";
             }
             else if (randomIndexDestinacia === 2) {
-                return "ČÍNA";
+                return "ISLAND";
             }
             else if (randomIndexDestinacia === 3) {
-                return "GRÉCKO";
+                return "INDONÉZIA";
             }
             else if (randomIndexDestinacia === 4) {
                 return "KARIBIK";

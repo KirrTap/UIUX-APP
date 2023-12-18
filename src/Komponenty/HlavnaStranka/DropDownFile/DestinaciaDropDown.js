@@ -4,7 +4,7 @@ import { useState } from "react";
 const DestinaciaDropDown = ({selected, setSelected}) => {
 
   const [isActive, setIsActive] = useState(false);
-  const option = ["VŠETKY DESTINÁCIE", "AUSTRÁLIA", "BAHAMY", "ČÍNA", "GRÉCKO", "KARIBIK", "TALIANKO"]
+  const option = ["VŠETKY DESTINÁCIE", "AUSTRÁLIA", "BAHAMY", "INDONÉZIA", "ISLAND", "KARIBIK","TALIANSKO"]
   return(
     <div>
       <p className="drop-nadpis">DESTINÁCIA</p>

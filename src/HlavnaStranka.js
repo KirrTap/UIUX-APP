@@ -8,6 +8,7 @@ const HlavnaStranka = () => {
             <div>
                 <TopBar />
                 <MainImg />
+                <p className="search-nadpis">VYHĽADAŤ PLAVBU</p>
                 <DropDown/>
                 <BottomBar/>
             </div>
